@@ -2,7 +2,6 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-orange)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-[![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ***
 
@@ -126,14 +125,14 @@ To import custom filters into AdBlock:
 2) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing's%20click2load%20filters)
 <br> (**optional** if using `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://x.com/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
-3) :star: [**Hagezi Pro mini**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.mini.txt) (78k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt&title=Hagezi%20Pro%20mini)
-<br> A smaller version of the [Hagezi Pro DNS blocklist](https://github.com/hagezi/dns-blocklists#pro) optimized for web browsers (78k vs. 159k rules). The streamlined list excludes rules not pertinent to web browsing, like those blocking [IoT tracking](https://ovic.vic.gov.au/privacy/resources-for-organisations/internet-of-things-and-privacy-issues-and-challenges/#introduction) and [device telemetry](https://stackify.com/telemetry-tutorial/). This mini version blocks domains associated with ads, tracking, analytics, and badware.
+3) :star: [**Hagezi Pro mini**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.mini.txt) (56k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt&title=Hagezi%20Pro%20mini)
+<br> A smaller version of the [Hagezi Pro DNS blocklist](https://github.com/hagezi/dns-blocklists#pro) optimized for web browsers (56k vs. 208k rules). The streamlined list excludes rules not pertinent to web browsing, like those blocking [IoT tracking](https://ovic.vic.gov.au/privacy/resources-for-organisations/internet-of-things-and-privacy-issues-and-challenges/#introduction) and [device telemetry](https://stackify.com/telemetry-tutorial/). This mini version blocks domains associated with ads, tracking, analytics, and badware.
 
 ### URL Tracking Parameters
 
 Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. These filter lists automatically remove tracking elements from URLs to protect your privacy when browsing the Internet.
 
-1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool)
+1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2.8k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool)
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022, but you can use both lists.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
@@ -144,7 +143,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 ### Fonts
 
-1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
+1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (89 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
 <br> This filter blocks fonts from third-party domains, which improves page load speed and protects your privacy. There are built-in exceptions to minimize site issues, such as allowing for font icons. Overall, it's more flexible than blocking all third-party fonts outright (e.g., `$font,3p`).
 
 > [!NOTE]
@@ -155,14 +154,20 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 1) :star: [**yokoffing's Annoyance List**](https://github.com/yokoffing/filterlists/blob/main/annoyance_list.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt&title=yokoffing's%20Annoyance%20List)
 <br> A curated list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles, "read more", etc.).
 
-2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt&title=Browse%20websites%20without%20logging%20in)
+2) [**Fanboy's Agegate List**](https://secure.fanboy.co.nz/fanboy-agegate.txt) | [subscribe](https://subscribe.adblockplus.org/?location=https://secure.fanboy.co.nz/fanboy-agegate.txt&title=Fanboy's%20Agegate%20List)
+<br> For age gated content.
+
+3) [**Fanboy's Anti-Chat List**](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt&title=Fanboy's%20Anti-Chat%20List)
+<br> Blocks AI chats from the most popular search engines.
+
+4) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt&title=Browse%20websites%20without%20logging%20in)
 <br> This list attempts to bypass forced logins on sites.
 
-3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
+5) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
 
 ### Paywalls
-To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://github.com/bpc-clone/bpc_updates/releases). The blocklists are limited in what they can do and are therefore **optional**.
+To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://gitflic.ru/user/magnolia1234). The blocklists are limited in what they can do and are therefore **optional**.
 
 1) **[Bypass Paywalls Clean filter](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/?file=bpc-paywall-filter.txt&branch=main)** (960 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt&title=Bypass%20Paywalls%20Clean%20filter)
 <br> You do not need this filterlist if you use the extension.
@@ -174,19 +179,31 @@ To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extensio
 
 High-risk sites can expose your device to threats. These lists can prevent that by warning you before navigation or limiting what you can access.
 
-1) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/spam-tlds-ublock.txt) (213 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt&title=Most%20Abused%20TLDs)
+1) :new: [**High-Entropy NRDs (7-day)**](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#new-newly-registered-domains-nrddga-) (509k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga7.txt&title=Hagezi%20High-Entropy%20NRDs%207-Day%20)
+<br> Targets newly registered domains (NRDs) from the past 7 days that exhibit structural randomness. "High entropy" describes domains that look like computer-generated gibberish, such as `qj9z2x5m0l.com`. Attackers use Domain Generation Algorithms (DGAs) to produce addresses daily so that infected devices can secretly "phone home" to [command servers](https://medium.com/@laurent.mandine/c2-role-in-cyber-attack-dde4710f2037). Note that this blocklist will not catch sophisticated phishing attacks that use readable dictionary words to mimic legitimate brands, such as `verizon-wireless-login.com`. Domains are provided by [Stamus Labs]( https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed).
+
+2) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/spam-tlds-ublock.txt) (286 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt&title=Most%20Abused%20TLDs)
 <br> Displays a warning before navigating to a site with an abused [TLD](https://en.wikipedia.org/wiki/Top-level_domain). Allows exceptions for legitimate sites. Merged from my own [Enhanced website protection](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt) list, Dandelion Sprout's `Anti-Malware List`, LennyFox's `Block non-Latin TLDs` [list](https://github.com/LennyFox/Blocklists/blob/master/Block_non_latin_TLDs.txt), and [Spamhaus](https://www.spamhaus.org/reputation-statistics/cctlds/domains/) statistics.
 
-2) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (88k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List)
+3) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (88k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List)
 <br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows [PUP](https://en.wikipedia.org/wiki/Potentially_unwanted_program) ads. It has many other subcategories that distinguish it from similar lists.
 
-3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001/blob/main/antimalware.txt)** (38k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)
+4) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001/blob/main/antimalware.txt)** (38k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)
 <br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), the [anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
 
 ## All-Purpose
 
-1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo/blob/main/list.txt) (81k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt&title=uBlock%20combo%20list)
-<br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists) This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
+A combo list bundles multiple filter lists into one. They pull updates from all the source lists and combine them.
+
+The trade-off is that you must rely on the combo list's maintainer. You are relying on them to refresh the list regularly. If they stop maintaining the list, your filtering becomes outdated.
+
+Check that the combo list is still actively maintained before you add it.
+
+1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo/blob/main/list.txt) (140k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt&title=uBlock%20combo%20list)
+<br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
+
+2) [**Hagezi COMBO "ALT-SUGGESTED-MINI" AdBlock List (Top-N Version)**](https://github.com/cbuijs/hagezi/blob/main/combo/alt-suggested-mini/domains.top-n.adblock) (37k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/cbuijs/hagezi/refs/heads/main/combo/alt-suggested-mini/domains.top-n.adblock&title=hagezi%20combo%20alt%20suggested%20mini%20list)
+<br> Combines Hagezi's [Ultimate mini](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#closed_book-multi-ultimate-mini-) and [TIF mini](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tifmini) lists, and adds [Dynamic DNS](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#dyndns), [Badware Hoster](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#hoster), and [URL Shortener](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#urlshortener) filters. This list is [optimized](https://github.com/cbuijs/hagezi/issues/8#issuecomment-3367969858) by removing redundant sub-domains. If you don't mind doubling the rule count, you can use the [non-mini version](https://raw.githubusercontent.com/cbuijs/hagezi/refs/heads/main/combo/alt-suggested/domains.top-n.adblock) which uses the full Ultimate and TIF lists. The `Top-N Version` provided here contains only domains that have been found on the top 1-10 million most popular domains. (For adblockers, I recommend sticking with this `domains.top-n.adblock` version.) You can also explore the other combo [variants](https://github.com/cbuijs/hagezi/tree/main/combo).
 
 ***
 
@@ -225,18 +242,19 @@ Advanced apporach for users comfortable troubleshooting issues and reporting sit
 
 #### Built-in lists
 *In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
-1. (optional) AdGuard Tracking Protection, [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt)
-2. EasyList - Annoyances (all lists)
+1. EasyList - Annoyances (all lists)
 
 #### Custom lists
 *In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
 1. Privacy Essentials (on uBO, `yokoffing's click2load filters` is included)
-2. Hagezi Pro Mini
-3. (optional) Block third-party fonts
-4. yokoffing's Annoyance List
-5. Browse websites without logging in
-6. (optional) YouTube Clear View
-7. (optional) Most Abused TLDs 
+2. (optional) AdGuard Tracking Protection ([purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt))
+3. Hagezi Pro Mini
+4. (optional) Block third-party fonts
+5. yokoffing's Annoyance List
+6. Browse websites without logging in
+7. (optional) YouTube Clear View
+8. (optional) Most Abused TLDs
+9. High-Entropy NRDs (7-day)
 
 ***
 
